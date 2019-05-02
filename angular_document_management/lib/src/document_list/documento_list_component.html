@@ -1,0 +1,39 @@
+<material-drawer temporary #drawer="drawer" attr.overlay="true">
+  Here is some drawer content.
+</material-drawer>
+<div class="material-content">
+  <header class="material-header shadow">
+    <div class="material-header-row">
+      <material-button class="material-drawer-button" icon (trigger)="drawer.toggle()">
+        <material-icon icon="menu"></material-icon>
+      </material-button>
+      <span class="material-header-title">Mis Facturas</span>
+      <div class="material-spacer"></div>
+      <nav class="material-navigation">
+        <material-icon icon="search"></material-icon>
+      </nav>
+    </div>
+  </header>
+  <header class="material-header shadow" style="background-color: white;" *ngIf="false">
+    <div class="material-header-row">
+      <material-auto-suggest-input [selectionOptions]="myOptions" [(inputText)]="myInput" (showClearIcon)="true">
+      </material-auto-suggest-input>
+    </div>
+  </header>
+  <div style="margin: 48px;">
+    <div class="mdc-card">    
+      <material-expansionpanel class="custom-toolbelt-panel" name="Factura Nro: {{item.numero}}"
+        *ngFor="let item of state.documentos " [showSaveCancel]="false">
+        {{item.descripcion}}
+        <div toolbelt>
+          <material-yes-no-buttons class="custom-toolbelt-buttons" yesText="Done" noText="Cancel" (yes)="true"
+            (no)="true">
+          </material-yes-no-buttons>
+          <material-button icon>
+            <material-icon icon="cloud_download"></material-icon>
+          </material-button>
+        </div>
+      </material-expansionpanel>
+    </div>
+  </div>
+</div>

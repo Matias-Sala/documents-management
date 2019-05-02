@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["json_annotation|lib/json_annotation.dart"],"parts":["common_sales_management|lib/src/models/factura.g.dart"],"conditionalDeps":[],"sdkDeps":[]}

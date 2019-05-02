@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["http|lib/http.dart","common_sales_management|lib/common_sales_managemnet.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"]}

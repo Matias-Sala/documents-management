@@ -1,0 +1,12 @@
+export 'src/models/order_item.dart';
+export 'src/models/order.dart';
+export 'src/models/order_result.dart';
+export 'src/models/order_result_error.dart';
+export 'src/models/activity.dart';
+export 'src/ventas_client.dart';
+export 'package:common_sales_management/src/repositories/ventas_repo.dart';
+export 'package:common_sales_management/src/repositories/documentos_repo.dart';
+export 'package:common_sales_management/src/blocs/events/documentos_events.dart';
+export 'package:common_sales_management/src/blocs/states/documentos_state.dart';
+export 'package:common_sales_management/src/blocs/events/documentos_events.dart';
+export 'package:common_sales_management/src/blocs/documentos_bloc.dart';

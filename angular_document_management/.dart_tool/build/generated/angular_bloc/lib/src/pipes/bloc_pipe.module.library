@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["angular|lib/core.dart","bloc|lib/bloc.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"]}

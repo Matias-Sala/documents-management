@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["common_sales_management|lib/src/models/models.dart","rxdart|lib/rxdart.dart","bloc|lib/bloc.dart","common_sales_management|lib/common_sales_managemnet.dart","meta|lib/meta.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"]}

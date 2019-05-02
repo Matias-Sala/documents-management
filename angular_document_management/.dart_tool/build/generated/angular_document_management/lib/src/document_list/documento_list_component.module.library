@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["angular|lib/angular.dart","angular_components|lib/angular_components.dart","angular_bloc|lib/angular_bloc.dart","angular_forms|lib/angular_forms.dart","common_sales_management|lib/common_sales_managemnet.dart","rxdart|lib/rxdart.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"]}

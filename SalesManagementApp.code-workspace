@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "common_sales_management"
+		},
+		{
+			"path": "angular_document_management"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/*.g.dart": true
+		}
+	}
+}

@@ -1,0 +1,88 @@
+@import 'package:angular_components/app_layout/mixins';
+
+:host {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.controls {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-width {
+  @include mat-drawer-width(50%);
+  @include mat-temporary-drawer-width(50%);
+}
+
+@import 'package:angular_components/css/material/material';
+@import 'package:angular_components/material_expansionpanel/mixins';
+@import 'package:angular_components/material_yes_no_buttons/mixins';
+
+.dark {
+  @include expansionpanel-dark-theme;
+}
+
+.dense {
+  @include expansionpanel-dense-theme;
+}
+
+.reminder {
+  color: $mat-blue;
+  margin-right: $mat-grid-type;
+  vertical-align: text-top;
+}
+
+.action {
+  padding: $mat-grid 0;
+}
+
+.flat-panels material-expansionpanel {
+  width: $mat-grid * 40;
+}
+
+.expand-on-left-panels material-expansionpanel {
+  width: $mat-grid * 60;
+}
+
+.independent-panels material-expansionpanel {
+  width: $mat-grid * 75;
+}
+
+.custom-toolbelt-buttons {
+  @include material-yes-button-text-color($mat-blue);
+}
+
+.custom-toolbelt-panel [toolbelt] {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: $mat-light-transparent-black;
+  padding-right: $mat-grid * 3;
+}
+
+.confirmation-dialog {
+  height: $mat-grid * 18;
+  text-align: center;
+  width: $mat-grid * 40;
+
+  h3 {
+    // TODO(google): Migrate to extended mixin mat-font-subhead
+    font-size: $mat-font-size-subhead;
+    font-weight: $mat-font-weight-regular;
+  }
+
+  material-yes-no-buttons {
+    display: block;
+  }
+}
+
+.left-align-action-buttons {
+  @include expansionpanel-left-align-action-buttons;
+}
+
+.bottom-header-action {
+  @include expansionpanel-bottom-header-action;
+}

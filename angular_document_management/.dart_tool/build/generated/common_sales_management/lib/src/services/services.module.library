@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["common_sales_management|lib/src/services/documentos_api_service.dart","common_sales_management|lib/src/services/ventas_api_service.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}

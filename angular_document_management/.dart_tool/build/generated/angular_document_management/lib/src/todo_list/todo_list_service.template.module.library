@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["angular_document_management|lib/src/todo_list/todo_list_service.dart","angular|lib/src/di/reflector.dart","angular|lib/core.template.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[]}
